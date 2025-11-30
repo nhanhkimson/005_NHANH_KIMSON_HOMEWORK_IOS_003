@@ -1,5 +1,5 @@
 import Foundation
-class User: Identifiable{
+class UserApp: Identifiable{
     var id = UUID()
     var username: String
     var email: String
@@ -13,5 +13,5 @@ class User: Identifiable{
         self.image = image
         self.isLogin = isLogin
     }
-    static var user: User = (User(username: "nhanhkimson", email: "nhanhkimson.biu@gmail.com", fullName: "Nhanh Kimson", image: "bagboy1", isLogin: false))
+    static var user: UserApp = (UserApp(username: "nhanhkimson", email: "nhanhkimson.biu@gmail.com", fullName: "Nhanh Kimson", image: "bagboy1", isLogin: false))
 }

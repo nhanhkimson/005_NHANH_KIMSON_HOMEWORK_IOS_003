@@ -6,6 +6,12 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		18FA8B4B2EDC1BA900014DF9 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 18FA8B4A2EDC1BA900014DF9 /* FirebaseAuth */; };
+		18FA8B4D2EDC1BA900014DF9 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 18FA8B4C2EDC1BA900014DF9 /* FirebaseCore */; };
+		18FA8B552EDC1D7900014DF9 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 18FA8B542EDC1D7900014DF9 /* GoogleSignIn */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		188AFD152E5C5FB900F42B6C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +33,7 @@
 		188AFD072E5C5FB800F42B6C /* Psa Khmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Psa Khmer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		188AFD142E5C5FB900F42B6C /* Psa KhmerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Psa KhmerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		188AFD1E2E5C5FB900F42B6C /* Psa KhmerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Psa KhmerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18FA8B522EDC1CA100014DF9 /* Psa-Khmer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Psa-Khmer-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -52,6 +59,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18FA8B4D2EDC1BA900014DF9 /* FirebaseCore in Frameworks */,
+				18FA8B4B2EDC1BA900014DF9 /* FirebaseAuth in Frameworks */,
+				18FA8B552EDC1D7900014DF9 /* GoogleSignIn in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +85,7 @@
 		188AFCFE2E5C5FB800F42B6C = {
 			isa = PBXGroup;
 			children = (
+				18FA8B522EDC1CA100014DF9 /* Psa-Khmer-Info.plist */,
 				188AFD092E5C5FB800F42B6C /* E-commerce */,
 				188AFD172E5C5FB900F42B6C /* E-commerceTests */,
 				188AFD212E5C5FB900F42B6C /* E-commerceUITests */,
@@ -112,6 +123,9 @@
 			);
 			name = "Psa Khmer";
 			packageProductDependencies = (
+				18FA8B4A2EDC1BA900014DF9 /* FirebaseAuth */,
+				18FA8B4C2EDC1BA900014DF9 /* FirebaseCore */,
+				18FA8B542EDC1D7900014DF9 /* GoogleSignIn */,
 			);
 			productName = "E-commerce";
 			productReference = 188AFD072E5C5FB800F42B6C /* Psa Khmer.app */;
@@ -195,6 +209,10 @@
 			);
 			mainGroup = 188AFCFE2E5C5FB800F42B6C;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				18FA8B492EDC1BA900014DF9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				18FA8B532EDC1D7900014DF9 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 188AFD082E5C5FB800F42B6C /* Products */;
 			projectDirPath = "";
@@ -400,6 +418,7 @@
 				DEVELOPMENT_TEAM = M2X26DUJR5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Psa-Khmer-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -410,7 +429,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ios.E-commerce";
+				PRODUCT_BUNDLE_IDENTIFIER = "ecommerce-001";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -428,6 +447,7 @@
 				DEVELOPMENT_TEAM = M2X26DUJR5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Psa-Khmer-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -438,7 +458,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ios.E-commerce";
+				PRODUCT_BUNDLE_IDENTIFIER = "ecommerce-001";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -558,6 +578,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		18FA8B492EDC1BA900014DF9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.6.0;
+			};
+		};
+		18FA8B532EDC1D7900014DF9 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		18FA8B4A2EDC1BA900014DF9 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18FA8B492EDC1BA900014DF9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		18FA8B4C2EDC1BA900014DF9 /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18FA8B492EDC1BA900014DF9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+		18FA8B542EDC1D7900014DF9 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 18FA8B532EDC1D7900014DF9 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 188AFCFF2E5C5FB800F42B6C /* Project object */;
 }

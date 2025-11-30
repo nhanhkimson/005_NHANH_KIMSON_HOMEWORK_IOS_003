@@ -28,7 +28,7 @@ struct Home: View {
 }
 
 struct UserInfo: View {
-    var user: User = User.user
+    var user: UserApp = UserApp.user
     var body: some View {
         HStack(alignment: .center){
                 bedge(iconName: user.image)

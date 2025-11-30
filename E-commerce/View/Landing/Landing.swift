@@ -7,7 +7,7 @@
 import SwiftUI
 struct Landing: View{
     var pages: [AnyView] = [AnyView(LandingOne(iamge: "watchTissot")), AnyView(LandingOne(iamge: "bagboy1")), AnyView(LandingOne(iamge: "watchWoman"))]
-    @State private var isLogin = User.user.isLogin
+    @State private var isLogin = UserApp.user.isLogin
     @Binding var isHome: Bool
     var body: some View{
         NavigationStack{
