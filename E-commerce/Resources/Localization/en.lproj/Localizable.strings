@@ -1,0 +1,417 @@
+// app
+"version_label" = "Version: %@";
+"Error" = "Error";
+
+"set_special" = "Set Special";
+"change_special_schedule" = "Change Schedule";
+
+"home" = "Home";
+"attendance" = "Attendance";
+"request" = "Request";
+"notification" = "Notification";
+"profile" = "Profile";
+"test" = "Using a few simple prompts, create professional, stylized, and structured documents with images, tables, and more. Get help refining your content, see the latest summary of your work, and ask questions to improve and finalize your document.";
+"welcome_message" = "Welcome to the app!";
+"edit_button" = "Edit";
+"done" = "Done";
+
+"all_status" = "All Status";
+"early_leave" = "Early Leave";
+
+// Authentication
+"distance_to_school_message" = "You are %@ outside the allowed range.";
+
+
+// admin header
+"welcom_back_admin" = "Welcom Back, Admin";
+"attendance_management_dashboard" = "Attendance Management Dashboard";
+
+// instructure header
+"it_instructor" = "IT Instructor";
+
+// student header
+"class_pvh" = "Class PVH";
+
+// home screen
+"statistic" = "Statistic";
+"credit_attendance" = "Credit Attendance";
+"your_attitude_score" = "Your attitude score";
+"attendance_summary" = "Attendance Summary";
+"extra_activity" = "Extra Activity";
+"date" = "Date";
+"swipe_to_check_in" = "Swipe to Check In";
+"group_leader" = "Group Leader";
+"attendee" = "Attendee";
+"type" = "Type";
+"swipe_to_check_out" = "Swipe to Check Out";
+"join_overtime" = "Join Overtime";
+"pending" = "Pending";
+"student_name" = "Student Name";
+"class" = "Class";
+"start_from" = "Start from";
+"end_at" = "End at";
+"duration" = "Duration";
+"today_students_attendance" = "Today Student’s Attendance";
+"request_permission" = "Request Permission";
+"reason" = "Reason";
+"shift" = "Shift";
+"today_staff_attendance" = "Today Staff's Attendance";
+"today_request_permission" = "Today Request Permission";
+"present" = "Present";
+"late" = "Late";
+"absent" = "Absent";
+"total_attendance" = "Total Attendance";
+"your_attendance" = "Your attendance";
+"updated" = "Updated";
+"attendance" = "Attendance";
+"done" = "Done";
+"instructor_name" = "Instractor Name";
+"join_overtime" = "Join Overtime";
+"student_name" = "Student Name";
+"pending" = "Pending";
+"duration" = "Duration";
+"complet_overtime" = "Complet Overtime";
+"start_time" = "Start Time";
+
+// Attendance screen
+"list_attendance" = "List Attendance";
+"track_your_attendance_record_and_statistics" = "Track your attendance record and statistics";
+"date_filter" = "Date filter";
+"summary" = "Summary";
+"recent_history" = "Recent history";
+"total_records" = "total records";
+"total_record" = "total record";
+"all" = "All";
+"select_month" = "Select month";
+"clear" = "Clear";
+"search_anything" = "Search anything...";
+
+"no_attendance_found" = "No Attendance Found";
+"data_will_show_if_exists" = "Data will show if it exists";
+
+// Admin sheet
+"filter_by" = "Filter by :";
+"reset" = "Reset";
+"role_of_user" = "Role of User";
+"date_range" = "Date Range";
+"select_start_date" = "Select Start Date";
+"select_end_date" = "Select End Date";
+"department" = "Department";
+"select_department" = "Select department";
+"select_class" = "Select class";
+"status" = "Status";
+"select_status" = "Select Status";
+"apply_filters" = "Apply Filters";
+"please_select_date" = "Select date";
+"reset_all" = "Reset All";
+
+// roles
+"staff" = "Staff";
+"student" = "Student";
+
+
+
+// instructure header
+"it_instructor" = "IT Instructor";
+
+// student header
+"class_pvh" = "Class PVH";
+
+
+
+
+//Profile screen
+"ok" = "OK";
+"confirm" = "Confirm";
+"cancel" = "Cancel";
+"are_you_sure_you_want_to_disable_push_notifications" = "Are you sure you want to disable push notifications?";
+
+"profile" = "Profile";
+"check_in_and_check_out" = "Check-in & Check-out";
+"course_time_and_privacy" = "Course Time and Activity";
+"select" = "Select";
+"khmer" = "Khmer";
+"english" = "English";
+"korean" = "Korean";
+"please_select_a_display_languages" = "Please select a display language";
+"languages" = "Languages";
+"push_notification" = "Push Notification";
+"allow_permission_to_get_more_information" = "Allow permission to get more information";
+"settings" = "Settings";
+"choose_your_preferred_language" = "Choose your preferred language";
+"change_password" = "Change Password";
+"You_can_change_your_current_password" = "You can change your current password";
+"logout" = "Logout";
+"appearance" = "Appearance";
+"appearance_description" = "Customize the look and feel of the app";
+"student_info" = "Staff profile information is managed by school administration. contact your school office fore any updated needed.";
+"staff_info" = "Staff profile information is managed by school administration. Contact your school office for any updates needed.";
+// policy
+"policy" = "Policy";
+"are_you_sure_to_logout" = "Are you sure you want to log out?";
+"this_will_remove_all_your_cache_data" = "This will remove all your cached data.";
+
+
+"Check-In/Check-Out Rules" = "Check-In/Check-Out Rules";
+"Information of attendance policies" = "Information of attendance policies";
+"Students must check in before 8:01 AM. Late check-in after this time will be marked as late." = "Students must check in before 8:01 AM. Late check-in after this time will be marked as late.";
+"Check-out is only allowed after 5:00 PM for Monday-Friday. Early check-out requires permission." = "Check-out is only allowed after 5:00 PM for Monday-Friday. Early check-out requires permission.";
+"If check-out occurs before 5:00 PM, it will be marked as early leave." = "If check-out occurs before 5:00 PM, it will be marked as early leave.";
+
+"Behavior Policy" = "Behavior Policy";
+"Conduct and classroom behavior rules." = "Conduct and classroom behavior rules.";
+"Disrespect deducts 0.7 points." = "Disrespect deducts 0.7 points.";
+"Disrupting class deducts 0.4 points." = "Disrupting class deducts 0.4 points.";
+"Bullying results in suspension." = "Bullying results in suspension.";
+"Failure to comply results in a warning." = "Failure to comply results in a warning.";
+"Fighting results in expulsion." = "Fighting results in expulsion.";
+
+"Leave Request Guideline" = "Leave Request Guideline";
+"Guidelines for submitting leave requests." = "Guidelines for submitting leave requests.";
+"Planned absences require 48-hour advance notice via student portal." = "Planned absences require 48-hour advance notice via student portal.";
+"Medical appointments require documentation." = "Medical appointments require documentation.";
+"Project deadlines may be extended for documented absences." = "Project deadlines may be extended for documented absences.";
+
+"Overtime & Go Out-Side" = "Overtime & Go Outside";
+"Guidelines for overtime study and outdoor permission." = "Guidelines for overtime study and outdoor permission.";
+"Weekday: Extra research classes are from 6:00 PM to 8:30 PM." = "Weekday: Extra research classes are from 6:00 PM to 8:30 PM.";
+"No hats indoors." = "No hats indoors.";
+"No extreme hairstyles allowed." = "No extreme hairstyles allowed.";
+"No sunglasses indoors." = "No sunglasses indoors.";
+"No makeup in class." = "No makeup in class.";
+
+"Attendance Consequences & Warning" = "Attendance Consequences & Warning";
+"Consequences related to attendance and warnings." = "Consequences related to attendance and warnings.";
+"Being late will deduct 0.75 points." = "Being late will deduct 0.75 points.";
+"Taking leave will deduct 1 point." = "Taking leave will deduct 1 point.";
+"Leaving early or going outside under 2 hours deducts 0.5 points; over 2 hours deducts 1 point." = "Leaving early or going outside under 2 hours deducts 0.5 points; over 2 hours deducts 1 point.";
+"Warning in 1/3 subjects in the same month reduces allowance by 50%." = "Warning in 1/3 subjects in the same month reduces allowance by 50%.";
+"Warning in 2/3 subjects in the same month reduces allowance by 100%." = "Warning in 2/3 subjects in the same month reduces allowance by 100%.";
+"Warning in 3/3 subjects in the same month results in loss of scholarship." = "Warning in 3/3 subjects in the same month results in loss of scholarship.";
+// Login
+"login_here" = "Login here";
+"Welcome_back_you’ve_been_missed!" = "Welcome back you’ve been missed!";
+"email" = "Email";
+"password" = "Password";
+"forgot_password" = "Forgot Password?";
+"logging_in..." = "Logging in...";
+"login" = "Login";
+
+"forgot_password" = "Forgot Password";
+"Please_enter_your_email_to_reset_the_password" = "Please enter your email to reset the password.";
+"reset_password" = "Reset Password";
+"your_email" = "Your Email";
+"reset_link_message" = "We sent a reset link to hello@example.com. Enter the 6-digit code mentioned in the email.";
+// Reset password
+"check_your_email" = "Check your email";
+"create_new_password_instructions" = "Create a new password. Ensure it differs from previous ones for security.";
+"set_new_password" = "Set a new password";
+"update_password" = "Update Password";
+"confirm_password" = "Confirm Password";
+
+// months
+"january" = "January";
+"february" = "February";
+"march" = "March";
+"april" = "April";
+"may" = "May";
+"june" = "June";
+"july" = "July";
+"august" = "August";
+"september" = "September";
+"october" = "October";
+"november" = "November";
+"december" = "December";
+
+"mon" = "Mon";
+"tue" = "Tue";
+"wed" = "Wed";
+"thu" = "Thu";
+"fri" = "Fri";
+"sat" = "Sat";
+"sun" = "Sun";
+
+// Attendance status
+"late" = "Late";
+"permission" = "Permission";
+"absent" = "Absent";
+"present" = "Present";
+"miss_scan" = "Miss scan";
+"on_time" = "On Time";
+"check_in" = "Check In";
+"check_out" = "Check Out";
+"early_checkout" = "Early Check-Out";
+"miss_check_in" = "Miss Check-in";
+"miss_check_out" = "Miss Check-Out";
+"leave_early" = "Leave Early";
+"outside" = "Outside";
+"miss_check" = "Miss Check";
+
+//Request
+"overtime" = "Overtime";
+
+// Missing keys found in code
+"Make every minute\ncount." = "Make every minute\ncount.";
+"Monitor your attendance and stay consistent with your learning goals." = "Monitor your attendance and stay consistent with your learning goals.";
+"old_password" = "Old Password";
+"new_password" = "New Password";
+"loading..." = "Loading...";
+"error" = "Error";
+"something_went_wrong" = "Something went wrong";
+"close" = "Close";
+"Haven't got the email yet?" = "Haven't got the email yet?";
+"Select Time" = "Select Time";
+"Select Date" = "Select Date";
+"Done" = "Done";
+"select_category" = "Select Category";
+"Shift" = "Shift";
+"Brief Reason" = "Brief Reason";
+"Submit Request" = "Submit Request";
+"Overtime Request" = "Overtime Request";
+"Submit a request to access your location" = "Submit a request to access your location";
+"Request Information" = "Request Information";
+"request_type" = "Request Type";
+"Edit" = "Edit";
+"Delete" = "Delete";
+"Overtime Information" = "Overtime Information";
+"Monthly Leave Status" = "Monthly Leave Status";
+"Used this month: \(permission)" = "Used this month: \(permission)";
+"Remaining before warning: \(warning)" = "Remaining before warning: \(warning)";
+"Approved" = "Approved";
+"4 Attendaces" = "4 Attendances";
+"Stand By Instructor" = "Stand By Instructor";
+"Start from" = "Start from";
+"Date" = "Date";
+"End at" = "End at";
+"Member" = "Member";
+"Status" = "Status";
+"Filter by" = "Filter by";
+"Date type" = "Date type";
+"select_date" = "Select date";
+"Resend OTP" = "Resend OTP";
+// Policy - additional keys found in PolicyViewModel
+"Late Arrival Policy" = "Late Arrival Policy";
+"choose your each languages" = "Choose your language";
+"Weekend: The extra class research  8:00AM - 6:00PM" = "Weekend: Extra research class 8:00 AM - 6:00 PM";
+"Student need to extra research more than 2h." = "Students need to do extra research for more than 2 hours.";
+"Under 2 hours marked early leave can ask 6 times per month and 2 hours up marked go outside." = "Under 2 hours is marked as early leave (allowed up to 6 times/month); 2 hours or more is marked as going outside.";
+// Change Password - missing keys found in code
+"Invalid old password" = "Invalid old password";
+"Password must include uppercase, lowercase, number (min 8 chars)" = "Password must include uppercase, lowercase, number (min 8 chars)";
+"Passwords do not match" = "Passwords do not match";
+"All field are require." = "All field are require.";
+"Change password successfully." = "Change password successfully.";
+
+
+// PIN Code
+"set_pin" = "Set PIN";
+"please_set_up_a_pin_to_proceed" = "Please set up a PIN to proceed";
+"switch_to_6_digits" = "Switch to 6-digits";
+"switch_to_4_digits" = "Switch to 4-digits";
+"enter_your_pin_to_swipe" = "Enter your PIN to swipe";
+"confirm_action" = "Confirm Action";
+"are_you_sure_to_change_to" = "Are you sure to change to";
+
+
+// file upload
+
+"oops_no_data" = "Oops! No Data";
+"data_will_appear_once_items_added" = "Data will appear once items are added";
+"schedule_list" = "Schedule List";
+"success" = "Success";
+"name" = "Name";
+"schedule" = "Schedule";
+"upload_excel" = "Upload Excel";
+"pin_not_match" = "PIN does not match";
+"set_new_pin" = "Set New PIN";
+"you_can_set_new_pin" = "You can set a new PIN";
+
+// export Excel
+"set_rule" = "Set rule";
+"sign_out" = "Sign out";
+"open_settings" = "Open Settings";
+"notifications_disabled" = "Notifications Disabled";
+"notifications_disabled_message" = "Notifications are disabled for this app. Please enable them in Settings to receive reminders.";
+"set_location" = "Set Location";
+"change_location" = "Change location";
+"export_as_excel" = "Export as Excel";
+"leave" = "Leave";
+
+// notification
+"mark_all_as_read" = "Mark All as Read";
+"recently" = "Recently";
+"all" = "All";
+"my_request" = "My Request";
+"permission" = "Permission";
+"leave" = "Leave";
+"overtime" = "Overtime";
+"seconds_ago" = "seconds ago";
+"minutes_ago" = "minutes ago";
+"hours_ago" = "hours ago";
+"days_ago" = "days ago";
+"weeks_ago" = "weeks ago";
+
+
+"confirm_check_in" = "Confirm Check-In";
+"confirm_mark_checked_in" = "Are you sure you want to mark this user as checked in?";
+"yes_check_in" = "Yes, Check In";
+"confirm_check_out" = "Confirm Check-Out";
+"confirm_mark_checked_out" = "Are you sure you want to mark this user as checked out?";
+"yes_check_out" = "Yes, Check Out";
+"check_in_updated_successfully" = "Check-in updated successfully";
+"check_out_failed" = "Check-Out Failed";
+"check_out_updated_successfully" = "Check-out updated successfully";
+
+"check_in_failed" = "Check-In Failed";
+
+"are_you_sure_to_delete_overtime" = "Are you sure to delete overtime?";
+"this_will_delete_the_overtime_record" = "This will delete the overtime record";
+
+"are_you_sure_to_delete_permission" = "Are you sure to delete permission?";
+"this_will_delete_the_permission_record" = "This will delete the permission record";
+
+"are_you_sure_to_delete_leave_request" = "Are you sure to delete leave request?";
+"this_will_delete_the_leave_request_record" = "This will delete the leave request record";
+
+"phone" = "Phone";
+"location" = "Location";
+"jointed" = "Jointed";
+
+"unknown" = "Unknown";
+
+"month" = "Month";
+
+"rule_settings" = "Rule Settings";
+"set_time_settings" = "Set Time Settings";
+"you_can_set_time_settings" = "You can set time settings";
+
+"end_time" = "End Time";
+"break_start" = "Break Start";
+"break_end" = "Break End";
+"break_time" = "Break Time";
+"enable_lunch_break_tracking" = "Enable Lunch Break Tracking";
+"save" = "Save";
+
+"warning_alert_settings" = "Warning & Alert Settings";
+"you_can_set_warning_alert_settings" = "You can set warning & alert settings";
+"student_warning_thresholds" = "Student Warning Thresholds";
+"auto_escalate_warnings_based_on_frequency" = "Automatically escalate warnings based on frequency";
+
+"take_a_leave" = "Take a Leave";
+"absent_without_info" = "Absent without info";
+"go_outside" = "Go Outside";
+"leave_early" = "Leave Early";
+"set_rules" = "Set Rules";
+"you_can_set_your_rules" = "You can set your rules";
+
+"select_generation" = "Select Generation";
+"for_student" = "For Student";
+"for_staff" = "For Staff";
+
+"add_new_rule" = "Add New Rule";
+"create_new_rule" = "Create New Rule";
+"set_overtime_rule" = "Set Overtime Rule";
+"add_your_overtime_rule" = "Add your overtime rule";
+"set_attendance_rule" = "Set Attendance Rule";
+"delete_rule" = "Delete Rule";
+"delete_rule_confirmation" = "Are you sure you want to delete this entire rule? This action cannot be undone.";

@@ -10,9 +10,11 @@ struct E_commerceApp: App {
             // Firebase initialization
             FirebaseApp.configure()
         }
+    @StateObject var authVM = AuthenticationViewModel()
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(authVM)
                 .onOpenURL { url in
                     //Handle Google Oauth URL
                     GIDSignIn.sharedInstance.handle(url)

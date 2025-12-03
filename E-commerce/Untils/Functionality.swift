@@ -18,7 +18,7 @@ func formatCurrency(_ amount: Double, currencyCode: String = "USD") -> String{
 }
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-struct PrimaryButton: View {
+struct PrimaryButton_: View {
     var text: String = ""
     var buttonType: Int
     var action: ()-> Void = {}
@@ -73,8 +73,15 @@ func bedge(iconName: String) -> some View{
     Image(iconName)
         .resizable()
         .scaledToFit()
-        .frame(width: .infinity)
 }
 #Preview {
     ContentView()
+}
+func getLanguageName(identifier: String)-> String{
+    switch identifier{
+    case "en": return "English"
+    case "km": return "Khmer"
+    case "ko": return "Korean"
+    default: return "English"
+    }
 }

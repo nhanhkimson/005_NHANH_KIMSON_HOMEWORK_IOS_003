@@ -1,0 +1,397 @@
+// App
+"version_label" = "버전: %@";
+"Error" = "오류";
+"set_special" = "스페셜 설정";
+"change_special_schedule" = "일정 변경";
+
+
+"home" = "홈";
+"attendance" = "출석";
+"request" = "요청";
+"notification" = "알림";
+"profile" = "프로필";
+"test" = "몇 가지 간단한 프롬프트를 사용하여 이미지, 표 등을 포함한 전문적이고 스타일화된 구조화된 문서를 만드세요. 콘텐츠 정제에 도움을 받고, 최신 작업 요약을 확인하고, 문서를 개선하고 마무리하기 위한 질문을 하세요.";
+"welcome_message" = "앱에 오신 것을 환영합니다!";
+"edit_button" = "편집";
+"done" = "완료";
+
+// Authentication
+"distance_to_school_message" = "허용된 범위를 %@ 벗어났습니다.";
+// admin header
+"welcom_back_admin" = "다시 오신 것을 환영합니다, Admin";
+"attendance_management_dashboard" = "출석 관리 대시보드";
+"all_status" = "모든 상태";
+"early_leave" = "조퇴";
+
+// instructure header
+"it_instructor" = "IT 강사";
+
+// student header
+"class_pvh" = "PVH 반";
+
+// home screen
+"statistic" = "통계";
+"credit_attendance" = "출석 학점";
+"your_attitude_score" = "당신의 태도 점수는";
+"attendance_summary" = "출석 요약";
+"extra_activity" = "추가 활동";
+"date" = "날짜";
+"swipe_to_check_in" = "스와이프하여 출근";
+"group_leader" = "그룹 리더";
+"attendee" = "참석자";
+"type" = "유형";
+"swipe_to_check_out" = "스와이프하여 퇴근";
+"join_overtime" = "초과 근무 참여";
+"pending" = "대기 중";
+"student_name" = "학생 이름";
+"class" = "수업";
+"start_from" = "시작일";
+"end_at" = "종료일";
+"duration" = "기간";
+"today_students_attendance" = "오늘 학생 출석";
+"request_permission" = "허가 요청";
+"reason" = "사유";
+"shift" = "근무조";
+"today_staff_attendance" = "오늘 직원 출석";
+"today_request_permission" = "오늘 허가를 요청합니다";
+"present" = "출석";
+"late" = "지각";
+"absent" = "결석";
+"total_attendance" = "총 출석 수";
+"your_attendance" = "당신의 출석";
+"updated" = "업데이트됨";
+"attendance" = "출석";
+"done" = "완료";
+"instructor_name" = "강사 이름";
+"join_overtime" = "초과 근무 참여";
+"student_name" = "학생 이름";
+"pending" = "보류 중";
+"duration" = "기간";
+"complet_overtime" = "초과근무 완료";
+"start_time" = "시작 시간";
+
+// Attendance Screen student
+"list_attendance" = "출석 목록";
+"track_your_attendance_record_and_statistics" = "출석 기록과 통계를 추적하세요";
+"date_filter" = "날짜 필터";
+"summary" = "요약";
+"recent_history" = "최근 기록";
+"total_records" = "총 기록 수";
+"total_record" = "총 기록";
+"all" = "전체";
+"select_month" = "월 선택";
+"clear" = "지우기";
+"search_anything" = "아무거나...";
+"no_attendance_found" = "출석이 없습니다";
+"data_will_show_if_exists" = "데이터가 존재하면 표시됩니다";
+
+// admin sheet
+"filter_by" = "필터 기준 :";
+"reset" = "재설정";
+"role_of_user" = "사용자 역할";
+"date_range" = "기간 범위";
+"select_start_date" = "시작 날짜 선택";
+"select_end_date" = "종료 날짜 선택";
+"department" = "부서";
+"select_department" = "부서 선택";
+"select_class" = "반 선택";
+"status" = "상태";
+"select_status" = "상태 선택";
+"apply_filters" = "필터 적용";
+"please_select_date" = "날짜 선택";
+"reset_all" = "모두 재설정";
+
+// roles
+"staff" = "직원";
+"student" = "학생";
+
+// Profile screen
+"ok" = "확인";
+"confirm" = "확인";
+"cancel" = "취소";
+"are_you_sure_you_want_to_disable_push_notifications" = "푸시 알림을 비활성화하시겠습니까?";
+"profile" = "프로필";
+"check_in_and_check_out" = "출근 & 퇴근";
+"course_time_and_privacy" = "강의 시간 및 활동";
+"select" = "선택해요";
+"khmer" = "크메르어";
+"english" = "영어";
+"korean" = "한국어";
+"please_select_a_display_languages" = "표시 언어를 선택하세요";
+"languages" = "언어";
+"push_notification" = "푸시 알림";
+"allow_permission_to_get_more_information" = "더 많은 정보를 받으려면 권한을 허용하세요";
+"settings" = "설정";
+"choose_your_preferred_language" = "선호하는 언어를 선택하세요";
+"change_password" = "비밀번호 변경";
+"You_can_change_your_current_password" = "현재 비밀번호를 변경할 수 있습니다";
+"logout" = "로그아웃";
+"appearance" = "모양";
+"appearance_description" = "앱의 모양과 느낌을 사용자 지정";
+"student_info" = "직원 프로필 정보는 학교 행정 부서에서 관리합니다. 필요한 업데이트가 있으면 학교 사무실에 문의하세요.";
+"staff_info" = "직원 프로필 정보는 학교 행정실에서 관리합니다. 수정이 필요한 경우 학교 사무실에 문의하세요.";
+
+// policy
+"policy" = "정책";
+"Check-In/Check-Out Rules" = "출석 및 퇴실 규칙";
+"Information of attendance policies" = "출석 정책에 대한 정보";
+"Students must check in before 8:01 AM. Late check-in after this time will be marked as late." = "학생은 오전 8시 1분 이전에 출석해야 합니다. 이후 출석은 지각으로 표시됩니다.";
+"Check-out is only allowed after 5:00 PM for Monday-Friday. Early check-out requires permission." = "월요일부터 금요일까지 퇴실은 오후 5시 이후에만 가능합니다. 조기 퇴실은 허가가 필요합니다.";
+"If check-out occurs before 5:00 PM, it will be marked as early leave." = "오후 5시 이전에 퇴실하면 조퇴로 표시됩니다.";
+
+"Behavior Policy" = "행동 규칙";
+"Conduct and classroom behavior rules." = "태도와 교실 내 행동에 대한 규칙입니다.";
+"Disrespect deducts 0.7 points." = "무례한 행동은 0.7점을 감점합니다.";
+"Disrupting class deducts 0.4 points." = "수업 방해는 0.4점을 감점합니다.";
+"Bullying results in suspension." = "괴롭힘은 정학 처분을 받습니다.";
+"Failure to comply results in a warning." = "규칙 위반 시 경고를 받습니다.";
+"Fighting results in expulsion." = "싸움은 퇴학 조치됩니다.";
+
+"Leave Request Guideline" = "휴가 신청 지침";
+"Guidelines for submitting leave requests." = "휴가 신청을 위한 지침입니다.";
+"Planned absences require 48-hour advance notice via student portal." = "계획된 결석은 학생 포털을 통해 48시간 전에 미리 신고해야 합니다.";
+"Medical appointments require documentation." = "의료 사유의 경우 증빙 서류가 필요합니다.";
+"Project deadlines may be extended for documented absences." = "증빙된 결석의 경우 프로젝트 마감일이 연장될 수 있습니다.";
+
+"Overtime & Go Out-Side" = "야간 학습 및 외출 규정";
+"Guidelines for overtime study and outdoor permission." = "야간 학습 및 외출 허가에 대한 지침입니다.";
+"Weekday: Extra research classes are from 6:00 PM to 8:30 PM." = "평일: 추가 연구 수업은 오후 6시부터 8시 30분까지입니다.";
+"No hats indoors." = "교실 내 모자 착용 금지.";
+"No extreme hairstyles allowed." = "과도한 헤어스타일 금지.";
+"No sunglasses indoors." = "교실 내 선글라스 착용 금지.";
+"No makeup in class." = "수업 중 화장 금지.";
+
+"Attendance Consequences & Warning" = "출석 관련 조치 및 경고";
+"Consequences related to attendance and warnings." = "출석 및 경고에 대한 조치 사항입니다.";
+"Being late will deduct 0.75 points." = "지각 시 0.75점 감점됩니다.";
+"Taking leave will deduct 1 point." = "결석 시 1점 감점됩니다.";
+"Leaving early or going outside under 2 hours deducts 0.5 points; over 2 hours deducts 1 point." = "2시간 이하 조퇴 또는 외출 시 0.5점, 2시간 초과 시 1점 감점됩니다.";
+"Warning in 1/3 subjects in the same month reduces allowance by 50%." = "한 달 동안 1/3 과목에서 경고를 받으면 수당이 50% 삭감됩니다.";
+"Warning in 2/3 subjects in the same month reduces allowance by 100%." = "한 달 동안 2/3 과목에서 경고를 받으면 수당이 100% 삭감됩니다.";
+"Warning in 3/3 subjects in the same month results in loss of scholarship." = "한 달 동안 3/3 과목에서 경고를 받으면 장학금이 취소됩니다.";
+"are_you_sure_to_logout" = "로그아웃하시겠습니까?";
+"this_will_remove_all_your_cache_data" = "캐시된 모든 데이터가 삭제됩니다.";
+
+// Login
+"login_here" = "여기에서 로그인하세요";
+"Welcome_back_you've_been_missed!" = "다시 오신 것을 환영합니다! 그리웠어요!";
+"email" = "이메일";
+"password" = "비밀번호";
+"forgot_password" = "비밀번호를 잊으셨나요?";
+"logging_in..." = "로그인 중...";
+"login" = "로그인";
+"Please_enter_your_email_to_reset_the_password" = "비밀번호를 재설정하려면 이메일을 입력하세요.";
+"reset_password" = "비밀번호 재설정";
+"your_email" = "당신의 이메일";
+"reset_link_message" = "hello@example.com 으로 재설정 링크를 보냈습니다. 이메일에 적힌 6자리 코드를 입력하세요.";
+
+// Reset password
+"check_your_email" = "이메일을 확인하세요";
+"create_new_password_instructions" = "새 비밀번호를 생성하세요. 이전 비밀번호와 다르게 설정하여 보안을 유지하세요.";
+"set_new_password" = "새 비밀번호 설정";
+"update_password" = "비밀번호 업데이트";
+"confirm_password" = "비밀번호 확인";
+
+//months
+"january" = "1월";
+"february" = "2월";
+"march" = "3월";
+"april" = "4월";
+"may" = "5월";
+"june" = "6월";
+"july" = "7월";
+"august" = "8월";
+"september" = "9월";
+"october" = "10월";
+"november" = "11월";
+"december" = "12월";
+
+"mon" = "월";
+"tue" = "화";
+"wed" = "수";
+"thu" = "목";
+"fri" = "금";
+"sat" = "토";
+"sun" = "일";
+
+// Attendance status
+"late" = "지각";
+"permission" = "허가";
+"absent" = "결석";
+"present" = "출석";
+"miss_scan" = "스캔 누락";
+"on_time" = "정시";
+"check_in" = "출근";
+"check_out" = "퇴근";
+"early_checkout" = "조기 퇴근";
+"miss_check_in" = "출근 누락";
+"miss_check_out" = "퇴근 누락";
+"leave_early" = "조기 퇴근";
+"outside" = "외출";
+"miss_check" = "점검 누락";
+
+// Request
+"overtime" = "초과 근무";
+
+// Missing keys found in code
+"Make every minute\ncount." = "매분을\n소중히 여기세요.";
+"Monitor your attendance and stay consistent with your learning goals." = "출석을 모니터링하고 학습 목표와 일관성을 유지하세요.";
+"old_password" = "기존 비밀번호";
+"new_password" = "새 비밀번호";
+"loading..." = "로딩 중...";
+"error" = "오류";
+"something_went_wrong" = "문제가 발생했습니다";
+"close" = "닫기";
+"Haven't got the email yet?" = "아직 이메일을 받지 못하셨나요?";
+"Select Time" = "시간 선택";
+"Select Date" = "날짜 선택";
+"Done" = "완료";
+"select_category" = "카테고리 선택";
+"Shift" = "근무조";
+"Brief Reason" = "간단한 사유";
+"Submit Request" = "요청 제출";
+"Overtime Request" = "초과 근무 요청";
+"Submit a request to access your location" = "위치 접근을 위한 요청을 제출하세요";
+"Request Information" = "요청 정보";
+"request_type" = "요청 유형";
+"Edit" = "편집";
+"Delete" = "삭제";
+"Overtime Information" = "초과 근무 정보";
+"Monthly Leave Status" = "월별 휴가 현황";
+"Used this month: \(permission)" = "이번 달 사용: \(permission)";
+"Remaining before warning: \(warning)" = "경고 전 남은 횟수: \(warning)";
+"Approved" = "승인됨";
+"4 Attendaces" = "4회 출석";
+"Stand By Instructor" = "대기 강사";
+"Start from" = "시작일";
+"Date" = "날짜";
+"End at" = "종료일";
+"Member" = "멤버";
+"Status" = "상태";
+"Filter by" = "필터 기준";
+"Date type" = "날짜 유형";
+"select_date" = "날짜 선택";
+"Resend OTP" = "OTP 재전송";
+// Policy - additional keys found in PolicyViewModel
+"Late Arrival Policy" = "지각 정책";
+"choose your each languages" = "각 언어를 선택하세요";
+"Weekend: The extra class research  8:00AM - 6:00PM" = "주말: 추가 연구 수업 08:00 - 18:00";
+"Student need to extra research more than 2h." = "학생은 2시간 이상 추가 연구가 필요합니다.";
+"Under 2 hours marked early leave can ask 6 times per month and 2 hours up marked go outside." = "2시간 미만은 조퇴로 표시(월 6회 가능), 2시간 이상은 외출로 표시됩니다.";
+// Change Password - missing keys found in code
+"Invalid old password" = "기존 비밀번호가 올바르지 않습니다";
+"Password must include uppercase, lowercase, number (min 8 chars)" = "비밀번호는 대문자, 소문자, 숫자를 포함해야 하며 8자 이상이어야 합니다";
+"Passwords do not match" = "비밀번호가 일치하지 않습니다";
+"All field are require." = "모든 필드는 필수입니다";
+"Change password successfully." = "비밀번호가 성공적으로 변경되었습니다";
+
+// PIN Code
+"set_pin" = "PIN 설정";
+"please_set_up_a_pin_to_proceed" = "계속하려면 PIN을 설정해주세요";
+"switch_to_6_digits" = "6자리로 전환";
+"switch_to_4_digits" = "4자리로 전환";
+"enter_your_pin_to_swipe" = "스와이프하려면 PIN을 입력하세요";
+"confirm_action" = "작업 확인";
+"are_you_sure_to_change_to" = "변경하시겠습니까";
+
+// file upload
+"oops_no_data" = "이런! 데이터가 없습니다";
+"data_will_appear_once_items_added" = "항목이 추가되면 데이터가 표시됩니다";
+"schedule_list" = "일정 목록";
+"success" = "성공";
+"name" = "이름";
+"schedule" = "시간표";
+"upload_excel" = "엑셀 업로드";
+"pin_not_match" = "PIN이 일치하지 않습니다";
+"set_new_pin" = "새 PIN 설정";
+"you_can_set_new_pin" = "새 PIN을 설정할 수 있습니다";
+
+// Missing translations
+"set_rule" = "규칙 설정";
+"sign_out" = "로그아웃";
+"open_settings" = "설정 열기";
+"notifications_disabled" = "알림 비활성화됨";
+"notifications_disabled_message" = "이 앱의 알림이 비활성화되어 있습니다. 알림을 받으려면 설정에서 활성화하세요.";
+"set_location" = "위치 설정";
+"change_location" = "위치 변경";
+"export_as_excel" = "Excel로 내보내기";
+"leave" = "휴가";
+
+// notification
+"mark_all_as_read" = "모두 읽음으로 표시";
+"recently" = "최근에";
+"all" = "모두";
+"my_request" = "내 요청";
+"permission" = "허가";
+"leave" = "떠나다";
+"overtime" = "시간 외에";
+"seconds_ago" = "몇 초 전";
+"minutes_ago" = "몇 분 전";
+"hours_ago" = "몇 시간 전";
+"days_ago" = "며칠 전";
+"weeks_ago" = "몇 주일 전에";
+
+
+"confirm_check_in" = "체크인 확인";
+
+"confirm_mark_checked_in" = "이 사용자를 체크인으로 표시하시겠습니까?";
+"yes_check_in" = "예, 체크인";
+"confirm_check_out" = "체크아웃 확인";
+"confirm_mark_checked_out" = "이 사용자를 체크아웃으로 표시하시겠습니까?";
+"yes_check_out" = "예, 체크아웃";
+"check_in_updated_successfully" = "체크인이 성공적으로 업데이트되었습니다";
+"check_out_failed" = "체크아웃 실패";
+"check_out_updated_successfully" = "체크아웃이 성공적으로 업데이트되었습니다";
+"check_in_failed" = "체크인 실패";
+
+"are_you_sure_to_delete_overtime" = "초과 근무를 삭제하시겠습니까?";
+"this_will_delete_the_overtime_record" = "이 작업은 초과 근무 기록을 삭제합니다";
+
+"are_you_sure_to_delete_permission" = "허가를 삭제하시겠습니까?";
+"this_will_delete_the_permission_record" = "이 작업은 허가 기록을 삭제합니다";
+
+"are_you_sure_to_delete_leave_request" = "휴가 요청을 삭제하시겠습니까?";
+"this_will_delete_the_leave_request_record" = "이 작업은 휴가 요청 기록을 삭제합니다";
+
+"phone" = "전화번호";
+"location" = "위치";
+"jointed" = "참여함";
+
+"unknown" = "알 수 없음";
+"month" = "월";
+"rule_settings" = "규칙 설정";
+"set_time_settings" = "시간 설정 구성";
+"you_can_set_time_settings" = "시간 설정을 구성할 수 있습니다";
+
+"end_time" = "종료 시간";
+"break_start" = "휴식 시작";
+"break_end" = "휴식 종료";
+"break_time" = "휴식 시간";
+"enable_lunch_break_tracking" = "점심시간 추적 활성화";
+"save" = "저장";
+
+"warning_alert_settings" = "경고 및 알림 설정";
+"you_can_set_warning_alert_settings" = "경고 및 알림 설정을 구성할 수 있습니다";
+"student_warning_thresholds" = "학생 경고 임계값";
+"auto_escalate_warnings_based_on_frequency" = "빈도에 따라 경고 자동 상향 조정";
+"take_a_leave" = "휴가 신청";
+"absent_without_info" = "무단 결석";
+"go_outside" = "외출";
+"leave_early" = "조기 퇴근";
+"set_rules" = "규칙 설정";
+"you_can_set_your_rules" = "규칙을 설정할 수 있습니다";
+
+
+"select_generation" = "세대 선택";
+"for_student" = "학생용";
+"for_staff" = "직원용";
+
+"add_new_rule" = "새 규칙 추가";
+"create_new_rule" = "새 규칙 만들기";
+
+"set_overtime_rule" = "초과근무 규칙 설정";
+"add_your_overtime_rule" = "초과근무 규칙을 추가하세요";
+"add_your_overtime_rule" = "초과근무 규칙을 추가하세요";
+"set_attendance_rule" = "출석 규칙 설정";
+"delete_rule" = "규칙 삭제";
+"delete_rule_confirmation" = "이 규칙 전체를 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.";

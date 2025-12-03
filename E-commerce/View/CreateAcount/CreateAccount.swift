@@ -1,6 +1,7 @@
 import SwiftUI
 import Foundation
 struct CreateAccount: View {
+    @EnvironmentObject var authVM: AuthenticationViewModel
     @State var username: String = ""
     @State var password: String = ""
     @State var email: String = ""
@@ -48,7 +49,7 @@ struct CreateAccount: View {
                 // ----------------------
                 
                 VStack(alignment: .center, spacing: 14){
-                    PrimaryButton(text: "Create Account", buttonType: 2, action: {
+                    PrimaryButton(title: "Create Account", action: {
                         isLoged.toggle()
                     })
                     Text("Or using other method")
@@ -57,7 +58,9 @@ struct CreateAccount: View {
                         print("Hello")
                     })
                     primaryButtonIcon(text: "Sign Up with Goggle", iconName: "google", action: {
-                        print("Hello")
+                        Task{
+                            await authVM.loginGoogle()
+                        }
                     })
                 }
             }

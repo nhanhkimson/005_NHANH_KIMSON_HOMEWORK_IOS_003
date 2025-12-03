@@ -37,8 +37,8 @@ struct OrderCard: View {
                     }
                 }
                 HStack{
-                    PrimaryButton(text: "Detail", buttonType: 3, action: {}, size: "sm")
-                    PrimaryButton(text: "Tracking", buttonType: 2, action: {}, size: "sm")
+                    PrimaryButton(title: "Detail"){}
+                    PrimaryButton(title: "Tracking"){}
                 }
             }
         }

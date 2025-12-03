@@ -1,0 +1,405 @@
+// App
+"version_label" = "កំណែ: %@";
+"error" = "កំហុស";
+"set_special" = "កំណត់ពិសេស";
+"change_special_schedule" = "ប្តូរកាលវិភាគ";
+
+"home" = "ទំព័រដើម";
+"attendance" = "វត្តមាន";
+"request" = "សំណើរ";
+"notification" = "សារដំណឹង";
+"profile" = "ពត៌មានផ្ទាល់ខ្លួន";
+"welcome_message" = "សូមស្វាគមន៍";
+"edit_button" = "កែប្រែ";
+"done" = "រួចរាល់";
+
+// Authentication
+"distance_to_school_message" = "អ្នកនៅចម្ងាយ %@ ខាងក្រៅតំបន់ដែលបានអនុញ្ញាត។";
+// admin header
+"welcom_back_admin" = "សូមស្វាគមន៍​​ Admin";
+"attendance_management_dashboard" = "ផ្ទាំងគ្រប់គ្រងវត្តមាន";
+"all_status" = "ស្ថានភាពទាំងអស់";
+"early_leave" = "ចាកចេញមុនពេល";
+// instructure IT
+"it_instructor" = "គ្រូបង្រៀនវិស័យព័ត៌មានវិទ្យា";
+
+// student header
+"class_pvh" = "ថ្នាក់ PVH";
+
+
+//home screen
+"statistic" = "ស្ថិតិ";
+"credit_attendance" = "វត្តមានក្រេឌីត";
+"your_attitude_score" = "ពិន្ទុអាកប្បកិរិយារបស់អ្នក";
+"attendance_summary" = "សង្ខេបវត្តមាន";
+"extra_activity" = "សកម្មភាពបន្ថែម";
+"date" = "កាលបរិច្ឆេទ";
+"swipe_to_check_in" = "អូសទៅស្តាំដើម្បី Check-In";
+"group_leader" = "មេក្រុម";
+"attendee" = "អ្នកចូលរួម";
+"type" = "ប្រភេទ";
+"swipe_to_check_out" = "អូសទៅស្តាំដើម្បីចេញពីការងារ";
+"join_overtime" = "ចូលរួមថែមម៉ោង";
+"pending" = "កំពុងរង់ចាំ";
+"student_name" = "ឈ្មោះសិស្ស";
+"class" = "ថ្នាក់";
+"start_from" = "ចាប់ផ្តើមពី";
+"end_at" = "បញ្ចប់នៅ";
+"duration" = "រយៈពេល";
+"today_students_attendance" = "វត្តមានសិស្សថ្ងៃនេះ";
+"request_permission" = "ស្នើសុំការអនុញ្ញាត";
+"reason" = "មូលហេតុ";
+"shift" = "វេន";
+"today_staff_attendance" = "វត្តមានបុគ្គលិកថ្ងៃនេះ";
+"today_request_permission" = "សំណើសុំការអនុញ្ញាតនៅថ្ងៃនេះ";
+"present" = "វត្តមាន";
+"late" = "យឺត";
+"absent" = "អវត្តមាន";
+"total_attendance" = "វត្តមានសរុប";
+"your_attendance" = "វត្តមានរបស់អ្នក";
+"updated" = "បានធ្វើបច្ចុប្បន្នភាព";
+"attendance" = "វត្តមាន";
+"done" = "បានបញ្ចប់";
+"instructor_name" = "ឈ្មោះគ្រូបង្រៀន";
+"join_overtime" = "ចូលរួមធ្វើម៉ោងបន្ថែម";
+"student_name" = "ឈ្មោះសិស្ស";
+"pending" = "កំពុងរង់ចាំ";
+"duration" = "រយៈពេល";
+"complet_overtime" = "បញ្ចប់ម៉ោងបន្ថែម";
+"start_time" = "ពេលចាប់ផ្តើម";
+
+// Attendance screen
+"list_attendance" = "បញ្ជីវត្តមាន";
+"track_your_attendance_record_and_statistics" = "តាមដានកំណត់ត្រា និងស្ថិតិវត្តមានរបស់អ្នក";
+"date_filter" = "Filter កាលបរិច្ឆេទ";
+"summary" = "សង្ខេប";
+"recent_history" = "ប្រវត្តិថ្មីៗ";
+"total_records" = "ចំនួនកំណត់ត្រាសរុប";
+"total_record" = "ចំនួនកំណត់ត្រាសរុប";
+"all" = "ទាំងអស់";
+"select_month" = "ជ្រើសរើសខែ";
+"clear" = "សម្អាត";
+"search_anything" = "ស្វែងរក...";
+"no_attendance_found" = "មិនមានវត្តមាន";
+"data_will_show_if_exists" = "ទិន្នន័យនឹងបង្ហាញប្រសិនបើវាមាន";
+
+
+
+
+// admin sheet
+"filter_by" = "Filter ដោយ:";
+"reset" = "កំណត់ឡើងវិញ";
+"role_of_user" = "តួនាទីអ្នកប្រើ";
+"date_range" = "Range ថ្ងៃខែ";
+"select_start_date" = "ជ្រើសរើសថ្ងៃចាប់ផ្តើម";
+"select_end_date" = "ជ្រើសរើសថ្ងៃបញ្ចប់";
+"department" = "ដេប៉ាតឺម៉ង់";
+"select_department" = "ជ្រើសរើសដេប៉ាតឺម៉ង់";
+"select_class" = "ជ្រើសរើសថ្នាក់";
+"status" = "ស្ថានភាព";
+"select_status" = "ជ្រើសរើសស្ថានភាព";
+"apply_filters" = "អនុវត្ត Filters";
+"please_select_date" = "ជ្រើសកាលបរិច្ឆេទ";
+"reset_all" = "កំណត់ឡើងវិញទាំងអស់";
+
+// roles
+"staff" = "បុគ្គលិក";
+"student" = "សិស្ស";
+
+// instructure IT
+"it_instructor" = "គ្រូបង្រៀនវិស័យព័ត៌មានវិទ្យា";
+
+// student header
+"class_pvh" = "ថ្នាក់ PVH";
+
+
+
+
+// Profile screen
+"profile" = "ប្រវត្តិរូប";
+"check_in_and_check_out" = "ស្កេនចូល & ស្កេនចេញ";
+"course_time_and_privacy" = "ម៉ោងនិងសកម្មភាពនៃវគ្គសិក្សា";
+"select" = "ជ្រើសរើស";
+"khmer" = "ខ្មែរ";
+"english" = "អង់គ្លេស";
+"korean" = "កូរ៉េ";
+"please_select_a_display_languages" = "សូមជ្រើសរើសភាសាបង្ហាញ";
+"languages" = "ភាសា";
+"push_notification" = "ការជូនដំណឹង";
+"allow_permission_to_get_more_information" = "អនុញ្ញាតឱ្យការអនុញ្ញាតដើម្បីទទួលបានព័ត៌មានបន្ថែម";
+"settings" = "ការកំណត់";
+"choose_your_preferred_language" = "ជ្រើសរើសភាសាដែលអ្នកចូលចិត្ត";
+"change_password" = "ប្តូរពាក្យសម្ងាត់";
+"You_can_change_your_current_password" = "អ្នកអាចប្តូរពាក្យសម្ងាត់បច្ចុប្បន្នរបស់អ្នកបាន";
+"logout" = "ចាកចេញ";
+"appearance" = "រូបរាង";
+"appearance_description" = "ប្ដូររាងនិងអារម្មណ៍នៃកម្មវិធី";
+"student_info" = "ព័ត៌មានអំពីប្រវត្តិរូបបុគ្គលិកត្រូវបានគ្រប់គ្រងដោយរដ្ឋបាលសាលា។ ទាក់ទងការិយាល័យសាលារបស់អ្នក សម្រាប់ការធ្វើបច្ចុប្បន្នភាពណាមួយដែលត្រូវការ។";
+"staff_info" = "ព័ត៌មានប្រវត្តិរូបបុគ្គលិកត្រូវបានគ្រប់គ្រងដោយការិយាល័យរដ្ឋបាលសាលា។ សូមទាក់ទងការិយាល័យសាលារបស់អ្នក ប្រសិនបើត្រូវការធ្វើបច្ចុប្បន្នភាព។";
+"are_you_sure_to_logout" = "តើអ្នកចង់ចេញពីគណនីមែនទេ?";
+"this_will_remove_all_your_cache_data" = "នេះនឹងលុបចោលទិន្នន័យឃ្លាំងសម្ងាត់ទាំងអស់របស់អ្នក។";
+
+
+// policy
+"confirm" = "បញ្ជាក់";
+"ok" = "យល់ព្រម";
+"cancel" = "បោះបង់";
+"are_you_sure_you_want_to_disable_push_notifications" = "តើអ្នកប្រាកដថាចង់បិទការជូនដំណឹងផុសដែរឬទេ?";
+"policy" = "គោលការណ៍";
+"Check-In/Check-Out Rules" = "ច្បាប់ចូលរៀន និងចេញរៀន";
+"Information of attendance policies" = "ព័ត៌មានអំពីគោលការណ៍វត្តមាន";
+"Students must check in before 8:01 AM. Late check-in after this time will be marked as late." = "សិស្សត្រូវតែចូលរៀនមុនម៉ោង ៨:០១ ព្រឹក។ ប្រសិនបើចូលរៀនក្រោយម៉ោងនេះ នឹងត្រូវចាត់ទុកថាមកយឺត។";
+"Check-out is only allowed after 5:00 PM for Monday-Friday. Early check-out requires permission." = "ការចេញរៀនអនុញ្ញាតតែបន្ទាប់ពីម៉ោង ៥ ល្ងាច ពីថ្ងៃច័ន្ទដល់ថ្ងៃសុក្រ។ ប្រសិនបើចេញមុនត្រូវការការអនុញ្ញាត។";
+"If check-out occurs before 5:00 PM, it will be marked as early leave." = "ប្រសិនបើចេញមុនម៉ោង ៥ ល្ងាច នឹងត្រូវចាត់ទុកថាចេញមុនម៉ោង។";
+
+"Behavior Policy" = "គោលការណ៍អំពីអាកប្បកិរិយា";
+"Conduct and classroom behavior rules." = "ច្បាប់អំពីអាកប្បកិរិយានិងវិន័យក្នុងថ្នាក់។";
+"Disrespect deducts 0.7 points." = "ការមិនគោរពនឹងកាត់ពិន្ទុ ០.៧។";
+"Disrupting class deducts 0.4 points." = "ការរំខានក្នុងថ្នាក់នឹងកាត់ពិន្ទុ ០.៤។";
+"Bullying results in suspension." = "ការរំលោភបំពាននឹងត្រូវផ្អាកការសិក្សា។";
+"Failure to comply results in a warning." = "ការមិនគោរពនឹងទទួលបានសេចក្តីព្រមាន។";
+"Fighting results in expulsion." = "ការប្រយុទ្ធគ្នានឹងត្រូវបណ្តេញចេញពីសាលា។";
+
+"Leave Request Guideline" = "ការណែនាំស្នើសុំច្បាប់ឈប់សម្រាក";
+"Guidelines for submitting leave requests." = "ការណែនាំសម្រាប់ការស្នើសុំឈប់សម្រាក។";
+"Planned absences require 48-hour advance notice via student portal." = "ការឈប់សម្រាកដែលបានគ្រោងទុកត្រូវជូនដំណឹងជាមុន ៤៨ ម៉ោងតាមរយៈប្រព័ន្ធសិស្ស។";
+"Medical appointments require documentation." = "ការឈប់សម្រាកដោយហេតុផលសុខភាពត្រូវមានឯកសារបញ្ជាក់។";
+"Project deadlines may be extended for documented absences." = "កាលកំណត់គម្រោងអាចពន្យារបាន ប្រសិនបើមានឯកសារបញ្ជាក់។";
+
+"Overtime & Go Out-Side" = "ម៉ោងបន្ថែម និងការចេញក្រៅ";
+"Guidelines for overtime study and outdoor permission." = "ការណែនាំសម្រាប់ការរៀនបន្ថែម និងការចេញក្រៅសាលា។";
+"Weekday: Extra research classes are from 6:00 PM to 8:30 PM." = "ថ្ងៃធ្វើការ៖ ថ្នាក់ស្រាវជ្រាវបន្ថែមមានចាប់ពីម៉ោង ៦ ល្ងាច ដល់ម៉ោង ៨:៣០ ល្ងាច។";
+"No hats indoors." = "មិនអនុញ្ញាតពាក់មួកនៅក្នុងថ្នាក់។";
+"No extreme hairstyles allowed." = "មិនអនុញ្ញាតសក់ដែលមានរចនាបថខុសប្រក្រតី។";
+"No sunglasses indoors." = "មិនអនុញ្ញាតពាក់វ៉ែនតាផ្តល់ពន្លឺក្នុងថ្នាក់។";
+"No makeup in class." = "មិនអនុញ្ញាតលាបមុខនៅក្នុងថ្នាក់។";
+
+"Attendance Consequences & Warning" = "វិធានការវត្តមាន និងសេចក្តីព្រមាន";
+"Consequences related to attendance and warnings." = "វិធានការទាក់ទងនឹងវត្តមាន និងការព្រមាន។";
+"Being late will deduct 0.75 points." = "ការមកយឺតនឹងកាត់ពិន្ទុ ០.៧៥។";
+"Taking leave will deduct 1 point." = "ការឈប់សម្រាកនឹងកាត់ពិន្ទុ ១។";
+"Leaving early or going outside under 2 hours deducts 0.5 points; over 2 hours deducts 1 point." = "ចេញមុន ឬចេញក្រៅក្រោម ២ ម៉ោងនឹងកាត់ពិន្ទុ ០.៥; លើសពី ២ ម៉ោងនឹងកាត់ពិន្ទុ ១។";
+"Warning in 1/3 subjects in the same month reduces allowance by 50%." = "ប្រសិនបើមានសេចក្តីព្រមានក្នុងមុខវិជ្ជា ១/៣ ក្នុងខែតែមួយ នឹងកាត់ប្រាក់ឧបត្ថម្ភ ៥០%។";
+"Warning in 2/3 subjects in the same month reduces allowance by 100%." = "ប្រសិនបើមានសេចក្តីព្រមានក្នុងមុខវិជ្ជា ២/៣ ក្នុងខែតែមួយ នឹងកាត់ប្រាក់ឧបត្ថម្ភ ១០០%។";
+"Warning in 3/3 subjects in the same month results in loss of scholarship." = "ប្រសិនបើមានសេចក្តីព្រមានក្នុងមុខវិជ្ជា ៣/៣ ក្នុងខែតែមួយ នឹងបាត់បង់អាហារូបករណ៍។";
+
+// Login
+"login_here" = "ចូលនៅទីនេះ";
+"Welcome_back_you’ve_been_missed!" = "សូមស្វាគមន៍ការវិលត្រឡប់មកវិញ យើងបាននឹកអ្នក!";
+"email" = "អ៊ីមែល";
+"password" = "ពាក្យសម្ងាត់";
+"forgot_password" = "ភ្លេចពាក្យសម្ងាត់ឬ?";
+"logging_in..." = "កំពុងចូល...";
+"login" = "ចូល";
+
+"forgot_password" = "ភ្លេចពាក្យសម្ងាត់";
+"Please_enter_your_email_to_reset_the_password" = "សូមបញ្ចូលអ៊ីមែលរបស់អ្នកដើម្បីកំណត់ពាក្យសម្ងាត់ឡើងវិញ។";
+"reset_password" = "កំណត់ពាក្យសម្ងាត់ឡើងវិញ";
+"your_email" = "អ៊ីមែលរបស់អ្នក";
+"reset_link_message" = "យើងបានផ្ញើតំណភ្ជាប់សម្រាប់កំណត់ពាក្យសម្ងាត់ឡើងវិញទៅកាន់ hello@example.com។ សូមបញ្ចូលលេខកូដចំនួន ៦ ខ្ទង់ដែលមាននៅក្នុងអ៊ីមែល។";
+// Reset password
+"check_your_email" = "ពិនិត្យអ៊ីមែលរបស់អ្នក";
+"create_new_password_instructions" = "បង្កើតពាក្យសម្ងាត់ថ្មី។ សូមប្រាកដថាវខុសពីពាក្យសម្ងាត់មុនសម្រាប់សុវត្ថិភាព។";
+"set_new_password" = "កំណត់ពាក្យសម្ងាត់ថ្មី";
+"update_password" = "ធ្វើបច្ចុប្បន្នភាពពាក្យសម្ងាត់";
+"confirm_password" = "បញ្ជាក់ពាក្យសម្ងាត់";
+
+//months
+"january" = "មករា";
+"february" = "កុម្ភៈ";
+"march" = "មីនា";
+"april" = "មេសា";
+"may" = "ឧសភា";
+"june" = "មិថុនា";
+"july" = "កក្ដដា";
+"august" = "សីហា";
+"september" = "កញ្ញា";
+"october" = "តុលា";
+"november" = "វិច្ឆិកា";
+"december" = "ធ្នូ";
+
+"mon" = "ចន្ទ";
+"tue" = "អង្គារ";
+"wed" = "ពុធ";
+"thu" = "ព្រហ";
+"fri" = "សុក្រ";
+"sat" = "សៅរ៍";
+"sun" = "អាទិត្យ";
+
+
+//Attendance status
+"late" = "យឺត";
+"permission" = "សុំច្បាប់";
+"absent" = "អវត្តមាន";
+"present" = "វត្តមាន";
+"miss_scan" = "ខកខានស្កេន";
+"on_time" = "ទាន់ពេលវេលា";
+"check_in" = "ស្កេនចូល";
+"check_out" = "ស្កេនចេញ";
+"early_checkout" = "ស្កេនចេញមុនពេល";
+"miss_check_in" = "ខកខានស្កេនចូល";
+"miss_check_out" = "ខកខានស្កេនចេញ";
+"leave_early" = "ចាកចេញមុន";
+"outside" = "ចេញក្រៅ";
+"miss_check" = "ខកខានការស្កេន";
+
+// Request
+"overtime" = "ម៉ោងបន្ថែម";
+
+// Missing keys found in code
+"Make every minute\ncount." = "ធ្វើឱ្យរាល់នាទី\nមានតម្លៃ។";
+"Monitor your attendance and stay consistent with your learning goals." = "តាមដានវត្តមានរបស់អ្នក និងរក្សាភាពស្ថិរភាពជាមួយគោលដៅសិក្សារបស់អ្នក។";
+"old_password" = "ពាក្យសម្ងាត់ចាស់";
+"new_password" = "ពាក្យសម្ងាត់ថ្មី";
+"loading..." = "កំពុងផ្ទុក...";
+"error" = "កំហុស";
+"something_went_wrong" = "មានអ្វីមួយខុស";
+"close" = "បិទ";
+"Haven't got the email yet?" = "មិនទាន់បានអ៊ីមែលទេ?";
+"Select Time" = "ជ្រើសរើសពេលវេលា";
+"Select Date" = "ជ្រើសរើសកាលបរិច្ឆេទ";
+"Done" = "រួចរាល់";
+"select_category" = "ជ្រើសរើសប្រភេទ";
+"Shift" = "វេន";
+"Brief Reason" = "មូលហេតុខ្លី";
+"Submit Request" = "ដាក់ស្នើសំណើ";
+"Overtime Request" = "សំណើម៉ោងបន្ថែម";
+"Submit a request to access your location" = "ដាក់ស្នើសំណើដើម្បីចូលប្រើទីតាំងរបស់អ្នក";
+"Request Information" = "ព័ត៌មានសំណើ";
+"request_type" = "ប្រភេទសំណើ";
+"Edit" = "កែប្រែ";
+"Delete" = "លុប";
+"Overtime Information" = "ព័ត៌មានម៉ោងបន្ថែម";
+"Monthly Leave Status" = "ស្ថានភាពឈប់សម្រាកប្រចាំខែ";
+"Used this month: \(permission)" = "បានប្រើក្នុងខែនេះ: \(permission)";
+"Remaining before warning: \(warning)" = "នៅសល់មុនព្រមាន: \(warning)";
+"Approved" = "បានអនុម័ត";
+"4 Attendaces" = "វត្តមាន ៤";
+"Stand By Instructor" = "គ្រូបង្រៀនរង់ចាំ";
+"Start from" = "ចាប់ផ្តើមពី";
+"Date" = "កាលបរិច្ឆេទ";
+"End at" = "បញ្ចប់នៅ";
+"Member" = "សមាជិក";
+"Status" = "ស្ថានភាព";
+"Filter by" = "តម្រងដោយ";
+"Date type" = "ប្រភេទកាលបរិច្ឆេទ";
+"select_date" = "ជ្រើសរើសកាលបរិច្ឆេទ";
+"Resend OTP" = "ផ្ញើ OTP ឡើងវិញ";
+// Policy - additional keys found in PolicyViewModel
+"Late Arrival Policy" = "គោលការណ៍មកយឺត";
+"choose your each languages" = "ជ្រើសរើសភាសារបស់អ្នក";
+"Weekend: The extra class research  8:00AM - 6:00PM" = "ចុងសប្តាហ៍៖ ថ្នាក់ស្រាវជ្រាវបន្ថែម 8:00 ព្រឹក - 6:00 ល្ងាច";
+"Student need to extra research more than 2h." = "សិស្សត្រូវការស្រាវជ្រាវបន្ថែមលើសពី 2 ម៉ោង";
+"Under 2 hours marked early leave can ask 6 times per month and 2 hours up marked go outside." = "ក្រោម 2 ម៉ោងត្រូវដាក់សម្គាល់ថាចេញមុន (អនុញ្ញាត 6 ដង/ខែ); 2 ម៉ោងឡើងត្រូវសម្គាល់ថាចេញក្រៅ";
+// Change Password - missing keys found in code
+"Invalid old password" = "ពាក្យសម្ងាត់ចាស់មិនត្រឹមត្រូវ";
+"Password must include uppercase, lowercase, number (min 8 chars)" = "ពាក្យសម្ងាត់ត្រូវមានអក្សរធំ អក្សរតូច និងលេខ (យ៉ាងហោចណាស់ 8 តួអក្សរ)";
+"Passwords do not match" = "ពាក្យសម្ងាត់មិនត្រូវគ្នា";
+"All field are require." = "គ្រប់វាលត្រូវតែបំពេញ";
+"Change password successfully." = "ប្តូរពាក្យសម្ងាត់បានជោគជ័យ";
+
+// PIN Code
+"set_pin" = "កំណត់លេខសម្ងាត់";
+"please_set_up_a_pin_to_proceed" = "សូមកំណត់លេខសម្ងាត់មួយដើម្បីបន្ត";
+"switch_to_6_digits" = "ប្ដូរទៅជា ៦ ខ្ទង់";
+"switch_to_4_digits" = "ប្ដូរទៅជា ៤ ខ្ទង់";
+"enter_your_pin_to_swipe" = "បញ្ចូលលេខសម្ងាត់របស់អ្នកដើម្បី Swipe";
+"confirm_action" = "បញ្ជាក់សកម្មភាព";
+"are_you_sure_to_change_to" = "តើអ្នកប្រាកដថាចង់ប្ដូរទៅ";
+
+
+// file upload
+"oops_no_data" = "អ៊ុប! គ្មានទិន្នន័យទេ";
+"data_will_appear_once_items_added" = "ទិន្នន័យនឹងបង្ហាញ បើមានការបន្ថែម";
+"schedule_list" = "បញ្ជីកាលវិភាគ";
+"success" = "ជោគជ័យ";
+"name" = "ឈ្មោះ";
+"schedule" = "កាលវិភាគ";
+"upload_excel" = "បញ្ចូលឯកសារ Excel";
+"pin_not_match" = "PIN មិនត្រូវគ្នា";
+"set_new_pin" = "កំណត់ PIN ថ្មី";
+"you_can_set_new_pin" = "អ្នកអាចកំណត់ PIN ថ្មីបាន";
+
+// Missing translations
+"set_rule" = "កំណត់ច្បាប់";
+"sign_out" = "ចាកចេញ";
+"open_settings" = "បើកការកំណត់";
+"notifications_disabled" = "ការជូនដំណឹងត្រូវបានបិទ";
+"notifications_disabled_message" = "ការជូនដំណឹងត្រូវបានបិទសម្រាប់កម្មវិធីនេះ។ សូមបើកវានៅក្នុងការកំណត់ដើម្បីទទួលបានការរំលឹក។";
+"set_location" = "កំណត់ទីតាំង";
+"change_location" = "ប្តូរទីតាំង";
+"export_as_excel" = "នាំចេញជា Excel";
+"leave" = "ឈប់សម្រាក";
+
+// notification
+"mark_all_as_read" = "សម្គាល់ទាំងអស់ថាអានរួច";
+"recently" = "ថ្មីៗនេះ";
+"all" = "ទាំងអស់";
+"my_request" = "សំណើរបស់ខ្ញុំ";
+"permission" = "ការអនុញ្ញាត";
+"leave" = "ការចាកចេញ";
+"overtime" = "ការម៉ោងបន្ថែម";
+"seconds_ago" = "វិនាទីមុន";
+"minutes_ago" = "នាទីមុន";
+"hours_ago" = "ម៉ោងមុន";
+"days_ago" = "ថ្ងៃមុន";
+"weeks_ago" = "សប្តាហ៍មុន";
+
+"confirm_check_in" = "បញ្ជាក់ការស្កេនចូល";
+"confirm_mark_checked_in" = "តើអ្នកប្រាកដថាចង់ផ្លាស់ប្តូរ Status អ្នកប្រើនេះថាបានស្កេនចូលរួចរាល់ហើយឬ?";
+"yes_check_in" = "បាទ/ចាស ចូល";
+"confirm_check_out" = "បញ្ជាក់ការចេញ";
+"confirm_mark_checked_out" = "តើអ្នកប្រាកដថាចង់ផ្លាស់ប្តូរ Status អ្នកប្រើនេះថាបានស្កេនចេញរួចរាល់ហើយឬ?";
+"yes_check_out" = "បាទ/ចាស ស្កេនចេញ";
+"check_in_updated_successfully" = "ការផ្លាស់ប្តូរ Status ថាបានស្កេនចូលដោយជោគជ័យ";
+"check_out_failed" = "ការផ្លាស់ប្តូរ Status ទៅជាបានស្កេនចេញបានបរាជ័យ";
+"check_out_updated_successfully" = "ការផ្លាស់ប្តូរ Status ថាបានស្កេនចេញដោយជោគជ័យ";
+"check_in_failed" = "ការផ្លាស់ប្តូរ Status ទៅជាបានស្កេនចូលបានបរាជ័យ";
+
+"are_you_sure_to_delete_overtime" = "តើអ្នកប្រាកដថាចង់លុបម៉ោងបន្ថែមឬ?";
+"this_will_delete_the_overtime_record" = "នេះនឹងលុបកំណត់ត្រាម៉ោងបន្ថែម";
+
+"are_you_sure_to_delete_permission" = "តើអ្នកប្រាកដថាចង់លុបការអនុញ្ញាតឬ?";
+"this_will_delete_the_permission_record" = "នេះនឹងលុបកំណត់ត្រាការអនុញ្ញាត";
+
+"are_you_sure_to_delete_leave_request" = "តើអ្នកប្រាកដថាចង់លុបសំណើឈប់សម្រាកឬ?";
+"this_will_delete_the_leave_request_record" = "នេះនឹងលុបកំណត់ត្រាសំណើឈប់សម្រាក";
+
+"phone" = "លេខទូរសព្ទ";
+"location" = "ទីតាំង";
+"jointed" = "បានចុះឈ្មោះ";
+
+"unknown" = "មិនស្គាល់";
+"month" = "ខែ";
+"rule_settings" = "ការកំណត់ច្បាប់";
+"set_time_settings" = "កំណត់ការកំណត់ពេលវេលា";
+"you_can_set_time_settings" = "អ្នកអាចកំណត់ការកំណត់ពេលវេលា";
+
+"end_time" = "ម៉ោងបញ្ចប់";
+"break_start" = "ចាប់ផ្តើមពេលសម្រាក";
+"break_end" = "បញ្ចប់ពេលសម្រាក";
+"break_time" = "ពេលវេលាផឹក";
+"enable_lunch_break_tracking" = "បើកការតាមដានពេលវេលាអាហារថ្ងៃត្រង់";
+"save" = "រក្សាទុក";
+"warning_alert_settings" = "ការកំណត់ការព្រមាន និងការជូនដំណឹង";
+"you_can_set_warning_alert_settings" = "អ្នកអាចកំណត់ការព្រមាន និងការជូនដំណឹងបាន";
+"student_warning_thresholds" = "កម្រិតការព្រមានសិស្ស";
+"auto_escalate_warnings_based_on_frequency" = "បង្វិលការព្រមានដោយស្វ័យប្រវត្តិ អាស្រ័យលើប្រេកង់";
+"take_a_leave" = "សុំចេញ";
+"absent_without_info" = "អវត្តមានដោយគ្មានព័ត៌មាន";
+"go_outside" = "ចេញក្រៅ";
+"leave_early" = "ចេញមុនពេល";
+"set_rules" = "កំណត់ច្បាប់";
+"you_can_set_your_rules" = "អ្នកអាចកំណត់ច្បាប់របស់អ្នកបាន";
+
+"select_generation" = "ជ្រើសរើសជំនាន់";
+"for_student" = "សម្រាប់សិស្ស";
+"for_staff" = "សម្រាប់បុគ្គលិក";
+
+"add_new_rule" = "បន្ថែមច្បាប់ថ្មី";
+"create_new_rule" = "បង្កើតច្បាប់ថ្មី";
+"set_overtime_rule" = "កំណត់ច្បាប់ថែមម៉ោង";
+"add_your_overtime_rule" = "បន្ថែមច្បាប់ថែមម៉ោងរបស់អ្នក";
+"set_attendance_rule" = "កំណត់ច្បាប់វត្តមាន";
+"delete_rule" = "លុបច្បាប់";
+"delete_rule_confirmation" = "តើអ្នកប្រាកដថាចង់លុបច្បាប់ទាំងមូលនេះឬ? សកម្មភាពនេះមិនអាចដកហូតវិញបានទេ។";

@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		18FA8B4B2EDC1BA900014DF9 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 18FA8B4A2EDC1BA900014DF9 /* FirebaseAuth */; };
-		18FA8B4D2EDC1BA900014DF9 /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 18FA8B4C2EDC1BA900014DF9 /* FirebaseCore */; };
-		18FA8B552EDC1D7900014DF9 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 18FA8B542EDC1D7900014DF9 /* GoogleSignIn */; };
+		189A80DA2EDFCF530040E955 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 189A80D92EDFCF530040E955 /* GoogleSignIn */; };
+		189A80DD2EDFCF770040E955 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 189A80DC2EDFCF770040E955 /* FirebaseAuth */; };
+		189A84D92EDFDBF00040E955 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 189A84D82EDFDBF00040E955 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,9 +59,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18FA8B4D2EDC1BA900014DF9 /* FirebaseCore in Frameworks */,
-				18FA8B4B2EDC1BA900014DF9 /* FirebaseAuth in Frameworks */,
-				18FA8B552EDC1D7900014DF9 /* GoogleSignIn in Frameworks */,
+				189A84D92EDFDBF00040E955 /* Kingfisher in Frameworks */,
+				189A80DA2EDFCF530040E955 /* GoogleSignIn in Frameworks */,
+				189A80DD2EDFCF770040E955 /* FirebaseAuth in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,9 +123,9 @@
 			);
 			name = "Psa Khmer";
 			packageProductDependencies = (
-				18FA8B4A2EDC1BA900014DF9 /* FirebaseAuth */,
-				18FA8B4C2EDC1BA900014DF9 /* FirebaseCore */,
-				18FA8B542EDC1D7900014DF9 /* GoogleSignIn */,
+				189A80D92EDFCF530040E955 /* GoogleSignIn */,
+				189A80DC2EDFCF770040E955 /* FirebaseAuth */,
+				189A84D82EDFDBF00040E955 /* Kingfisher */,
 			);
 			productName = "E-commerce";
 			productReference = 188AFD072E5C5FB800F42B6C /* Psa Khmer.app */;
@@ -185,7 +185,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1640;
-				LastUpgradeCheck = 1640;
+				LastUpgradeCheck = 2610;
 				TargetAttributes = {
 					188AFD062E5C5FB800F42B6C = {
 						CreatedOnToolsVersion = 16.4;
@@ -210,8 +210,9 @@
 			mainGroup = 188AFCFE2E5C5FB800F42B6C;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				18FA8B492EDC1BA900014DF9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				18FA8B532EDC1D7900014DF9 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				189A80D82EDFCF530040E955 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				189A80DB2EDFCF770040E955 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				189A84D72EDFDBF00040E955 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 188AFD082E5C5FB800F42B6C /* Products */;
@@ -346,6 +347,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -403,6 +405,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -580,15 +583,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		18FA8B492EDC1BA900014DF9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 12.6.0;
-			};
-		};
-		18FA8B532EDC1D7900014DF9 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+		189A80D82EDFCF530040E955 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/google/GoogleSignIn-iOS.git";
 			requirement = {
@@ -596,23 +591,39 @@
 				minimumVersion = 9.0.0;
 			};
 		};
+		189A80DB2EDFCF770040E955 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.6.0;
+			};
+		};
+		189A84D72EDFDBF00040E955 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.6.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		18FA8B4A2EDC1BA900014DF9 /* FirebaseAuth */ = {
+		189A80D92EDFCF530040E955 /* GoogleSignIn */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 18FA8B492EDC1BA900014DF9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = 189A80D82EDFCF530040E955 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		189A80DC2EDFCF770040E955 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 189A80DB2EDFCF770040E955 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
 		};
-		18FA8B4C2EDC1BA900014DF9 /* FirebaseCore */ = {
+		189A84D82EDFDBF00040E955 /* Kingfisher */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 18FA8B492EDC1BA900014DF9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseCore;
-		};
-		18FA8B542EDC1D7900014DF9 /* GoogleSignIn */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 18FA8B532EDC1D7900014DF9 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
-			productName = GoogleSignIn;
+			package = 189A84D72EDFDBF00040E955 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

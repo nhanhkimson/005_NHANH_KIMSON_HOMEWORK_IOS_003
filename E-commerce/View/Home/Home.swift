@@ -20,6 +20,7 @@ struct Home: View {
                 }
             }
         }
+        .ignoresSafeArea(.all)
     }
 }
 
@@ -27,20 +28,35 @@ struct Home: View {
     Home()
 }
 
+import FirebaseAuth
 struct UserInfo: View {
-    var user: UserApp = UserApp.user
+    var user = Auth.auth().currentUser
+
+    private var iconName: String {
+        // If you have a badge component that takes a system image name, use a sensible default
+        // You can customize this to map to your own images later
+        return "person.circle.fill"
+    }
+
+    private var greetingName: String {
+        // Safely obtain a display name or fallback to "there"
+        if let name = user?.displayName, !name.isEmpty {
+            return name
+        }
+        return "there"
+    }
+
     var body: some View {
         HStack(alignment: .center){
-                bedge(iconName: user.image)
-                    .clipShape(.circle)
-                    .frame(width: 42)
+            bedge(iconName: iconName)
+                .clipShape(.circle)
+                .frame(width: 42)
             VStack(alignment: .leading, spacing: 8){
-                    Text("Hi, \(user.fullName)")
+                Text("Hi, \(greetingName)")
                     .bold()
-                    Text("Let's go shopping")
-                        .font(.caption)
-                        .foregroundStyle(.gray)
-                
+                Text("Let's go shopping")
+                    .font(.caption)
+                    .foregroundStyle(.gray)
             }
             Spacer()
             HStack{

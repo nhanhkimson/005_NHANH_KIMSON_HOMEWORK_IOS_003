@@ -6,6 +6,7 @@
 //
 import SwiftUI
 struct Landing: View{
+    @EnvironmentObject var authVM: AuthenticationViewModel
     var pages: [AnyView] = [AnyView(LandingOne(iamge: "watchTissot")), AnyView(LandingOne(iamge: "bagboy1")), AnyView(LandingOne(iamge: "watchWoman"))]
     @State private var isLogin = UserApp.user.isLogin
     @Binding var isHome: Bool
@@ -20,14 +21,15 @@ struct Landing: View{
                 .tabViewStyle(.page)
                 .indexViewStyle(.page(backgroundDisplayMode: .always))
                 VStack(spacing: 18){
-                    PrimaryButton(text: "Create an account", buttonType: 2){
+                    PrimaryButton(title: "logout") {
                         isLogin = true
                     }
                     .navigationDestination(isPresented: $isLogin){
                         CreateAccount(isLoged: $isHome)
+                            .environmentObject(authVM)
                             .navigationBarBackButtonHidden(true)
                     }
-                    PrimaryButton(text: "Already have an account", buttonType: 1){
+                    PrimaryButton(title: "Already have an account"){
                     }
                 }
                 .padding(.horizontal)

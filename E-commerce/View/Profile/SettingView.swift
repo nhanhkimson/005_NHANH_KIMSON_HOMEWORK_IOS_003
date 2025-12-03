@@ -1,10 +1,12 @@
 import SwiftUI
 
 struct SettingView: View{
+    @EnvironmentObject var authVM: AuthenticationViewModel
     @Environment(\.dismiss) var dissmiss
     @Binding var isLogout: Bool
     var body: some View{
         SettingContentView(isLogout: $isLogout)
+            .environmentObject(authVM)
             .navigationBarBackButtonHidden(true)
             .toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
@@ -22,6 +24,7 @@ struct SettingView: View{
 }
 
 struct SettingContentView: View{
+    @EnvironmentObject var authVM: AuthenticationViewModel
     @State var showAlert: Bool = false
     @Binding var isLogout: Bool
     var body: some View{
@@ -81,7 +84,10 @@ struct SettingContentView: View{
                 .alert("Confirmation", isPresented: $showAlert) {
                     Button("Logout", role: .destructive) {
                         // Perform delete action
-                        isLogout = false
+                        Task{
+                            await authVM.logout()
+                            isLogout = false
+                        }
                         print("Item deleted!")
                     }
                     Button("Cancel", role: .cancel) {

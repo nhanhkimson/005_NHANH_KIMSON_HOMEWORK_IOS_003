@@ -1,6 +1,8 @@
 import SwiftUI
 import Foundation
+import FirebaseAuth
 struct Profile: View {
+    @EnvironmentObject var authVM: AuthenticationViewModel
     @Binding var isLogout: Bool
     var body: some View {
         NavigationStack{
@@ -21,6 +23,7 @@ struct Profile: View {
                 ToolbarItem(placement: .topBarTrailing){
                     NavigationLink{
                         SettingView(isLogout: $isLogout)
+                            .environmentObject(authVM)
                     } label: {
                         Image(systemName: "gearshape")
                             .foregroundStyle(Color(.black))
