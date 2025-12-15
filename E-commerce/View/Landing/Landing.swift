@@ -1,9 +1,3 @@
-//
-//  Landing.swift
-//  Psakhmer
-//
-//  Created by Apple on 8/31/25.
-//
 import SwiftUI
 struct Landing: View{
     @EnvironmentObject var authVM: AuthenticationViewModel
@@ -21,7 +15,7 @@ struct Landing: View{
                 .tabViewStyle(.page)
                 .indexViewStyle(.page(backgroundDisplayMode: .always))
                 VStack(spacing: 18){
-                    PrimaryButton(title: "logout") {
+                    PrimaryButton(title: "Create Account") {
                         isLogin = true
                     }
                     .navigationDestination(isPresented: $isLogin){
@@ -29,7 +23,7 @@ struct Landing: View{
                             .environmentObject(authVM)
                             .navigationBarBackButtonHidden(true)
                     }
-                    PrimaryButton(title: "Already have an account"){
+                    PrimaryButton(title: "Already have an account", backgroundColor: .clear,textColor: Color.prime, shadow: 0, border: Color.acc){
                     }
                 }
                 .padding(.horizontal)
@@ -37,6 +31,7 @@ struct Landing: View{
         }
     }
 }
-#Preview{
+#Preview {
     ContentView()
+        .environmentObject(AuthenticationViewModel())
 }

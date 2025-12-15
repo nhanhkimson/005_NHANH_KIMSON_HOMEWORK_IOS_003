@@ -1,6 +1,7 @@
 import Foundation
 import FirebaseAuth
 import Firebase
+@MainActor
 class AuthenticationViewModel: ObservableObject{
     @Published var isLoading: Bool = false
     @Published var errorMessage: String?

@@ -5,18 +5,13 @@ import GoogleSignIn
 
 @main
 struct E_commerceApp: App {
-//    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
-    init() {
-            // Firebase initialization
-            FirebaseApp.configure()
-        }
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     @StateObject var authVM = AuthenticationViewModel()
     var body: some Scene {
         WindowGroup {
             ContentView()
                 .environmentObject(authVM)
                 .onOpenURL { url in
-                    //Handle Google Oauth URL
                     GIDSignIn.sharedInstance.handle(url)
                 }
         }

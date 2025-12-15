@@ -4,6 +4,7 @@ struct PrimaryButton: View {
     @StateObject var languageManager = LanguageManager.shared
     var title: String
     var icon: String?
+    var size: CGFloat? = 18
     var backgroundColor: Color = .blue
     var textColor: Color = .white
     var isInfinity: Bool = true
@@ -19,6 +20,9 @@ struct PrimaryButton: View {
                 if let icon_ = icon {
                     Image(systemName: icon_)
                     Image(icon_)
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: size, height: size)
                 }
                 Text(LanguageManager.shared.localizedString(forKey: title))
                     .font(.custom(languageManager.getFont(),

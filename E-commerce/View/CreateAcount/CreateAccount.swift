@@ -6,71 +6,67 @@ struct CreateAccount: View {
     @State var password: String = ""
     @State var email: String = ""
     @State var isHide: Bool = false
+    @State var isHideConfirm: Bool = false
     @Binding var isLoged: Bool
     
     var body: some View {
-        NavigationStack{
-            VStack(spacing: 24){
-                ZStack{
-                    VStack{
-                        Form{
-                            Group{
-                                VStack(alignment: .leading, spacing: 26){
-                                    Section(header: headerText(text: "Usename")){
-                                        formTextField(iconName: "person", title: "Create your username", text: $username)
+            NavigationStack{
+                ScrollView{
+                VStack(alignment: .leading, spacing: 16){
+                    VStack(alignment: .leading){
+                        Text("Create Account")
+                            .font(.title)
+                            .bold()
+                        Text("Start learning with create your account")
+                            .foregroundStyle(Color(.systemGray))
+                    }
+                    ZStack{
+                        VStack{
+                            Form{
+                                Group{
+                                    VStack(alignment: .leading, spacing: 16){
+                                        Section(header: headerText(text: "Usename")){
+                                            formTextField(iconName: "person", title: "Create your username", text: $username)
+                                        }
+                                        Section(header: headerText(text: "Password")){
+                                            formTextField(iconName: "exclamationmark.lock", title: "Password", text: $password, isHide: $isHide)
+                                        }
+                                        Section(header: headerText(text: "Confirm Password")){
+                                            formTextField(iconName: "exclamationmark.lock", title: "Confirm Password", text: $password, isHide: $isHideConfirm)
+                                        }
                                     }
-                                    Section(header: headerText(text: "Email or Phone Number")){
-                                        formTextField(iconName: "envelope", title: "Create your username", text: $email)
-                                    }
-                                    Section(header: headerText(text: "Password")){
-                                        formTextField(iconName: "exclamationmark.lock", title: "Password", text: $password, isHide: $isHide)
-                                    }
+                                    
                                 }
-                                
+                                .listRowInsets(EdgeInsets())  // remove default space
+                                .listRowSeparator(.hidden)
                             }
-                            .listRowInsets(EdgeInsets())  // remove default space
-                            .listRowSeparator(.hidden)
-                        }
-                        .scrollContentBackground(.hidden)
-                        .formStyle(.columns)
-                    }
-                }
-                .toolbar{
-                    ToolbarItem(placement: .topBarLeading){
-                        VStack(alignment: .leading){
-                            Text("Create Account")
-                                .font(.title)
-                                .bold()
-                            Text("Start learning with create your account")
-                                .foregroundStyle(Color(.systemGray))
+                            .scrollContentBackground(.hidden)
+                            .formStyle(.columns)
                         }
                     }
+                    // ----------------------
+                    
+                    VStack(alignment: .center, spacing: 14){
+                        PrimaryButton(title: "Create Account", action: {
+                            isLoged.toggle()
+                        })
+                        PrimaryButton(title: "Sign Up with Goggle", icon: "google", backgroundColor: Color.whi, textColor: Color.blac, action: {
+                            Task{
+                                await authVM.loginGoogle()
+                            }
+                        })
+                    }
                 }
-                // ----------------------
-                
-                VStack(alignment: .center, spacing: 14){
-                    PrimaryButton(title: "Create Account", action: {
-                        isLoged.toggle()
-                    })
-                    Text("Or using other method")
-                        .foregroundStyle(.gray)
-                    primaryButtonIcon(text: "Sign Up With Facebook", iconName: "facebook", action: {
-                        print("Hello")
-                    })
-                    primaryButtonIcon(text: "Sign Up with Goggle", iconName: "google", action: {
-                        Task{
-                            await authVM.loginGoogle()
-                        }
-                    })
-                }
+                .padding()
+                Spacer()
             }
-            .padding()
         }
     }
 }
 
-#Preview{
-    ContentView()
+#Preview {
+    CreateAccount(isLoged: .constant(true))
+        .environmentObject(AuthenticationViewModel())
 }
 
 // Text header for section
